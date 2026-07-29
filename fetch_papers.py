@@ -12,9 +12,9 @@ from difflib import SequenceMatcher
 # ========== Configuration ==========
 
 # arXiv search configuration
-CATEGORIES = [' math.AP', 'math.CA', 'math.FA','math.SP']  # Research areas of interest  
-MAX_RESULTS = 5  # Number of papers to send daily
-MIN_PAPERS_PER_CATEGORY = 1  # Minimum papers per category to ensure balance
+CATEGORIES = ['math.AP', 'math.CA', 'math.FA', 'math.SP']  # Research areas of interest  
+MAX_RESULTS = 60  # Number of papers to send daily
+MIN_PAPERS_PER_CATEGORY = 10  # Minimum papers per category to ensure balance
 
 # Language configuration
 # Supported values: 'zh' (Chinese), 'en' (English), 'both' (Bilingual)
