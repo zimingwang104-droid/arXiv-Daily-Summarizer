@@ -22,8 +22,8 @@ EMAIL_LANGUAGE = os.environ.get('EMAIL_LANGUAGE', 'zh')  # Default to Chinese
 
 # DeepSeek API configuration
 DEEPSEEK_API_KEY = os.environ.get('DEEPSEEK_API_KEY')
-DEEPSEEK_BASE_URL = 'https://happyapi.org/v1'
-DEEPSEEK_MODEL = 'deepseek-ai/DeepSeek-V3.2-Exp'
+DEEPSEEK_BASE_URL = 'https://ws-86y0w5k4xxw6tcjk.cn-beijing.maas.aliyuncs.com/compatible-mode/v1'
+DEEPSEEK_MODEL = 'deepseek-v3.2-exp'
 
 # Email configuration
 SENDER_EMAIL = os.environ.get('SENDER_EMAIL')
